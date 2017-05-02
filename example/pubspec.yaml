@@ -1,6 +1,6 @@
-name: polymer_date_picker
+name: polymer_date_picker_example
 description: Original project https://github.com/bendavis78/paper-date-picker
-version: 0.0.3
+version: 0.0.1
 homepage: https://github.com/olimou/dart-polymer-paper-date-picker
 author: Emerson Moura <olimou@gmail.com>
 
@@ -8,10 +8,19 @@ environment:
   sdk: '>=1.23.0 <2.0.0'
 
 dependencies:
+  angular2: "^3.0.0"
   polymer: "^1.0.0-rc"
   polymer_elements: "^1.0.0-rc"
   web_components: ^0.12.0
+  polymer_date_picker:
+    path: ..
 
 dev_dependencies:
   browser: ^0.10.0
   dart_to_js_script_rewriter: ^1.0.1
+
+transformers:
+- polymer:
+    entry_points:
+      - web/index.html
+- dart_to_js_script_rewriter
