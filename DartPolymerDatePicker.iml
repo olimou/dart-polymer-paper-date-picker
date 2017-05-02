@@ -9,6 +9,7 @@
       <excludeFolder url="file://$MODULE_DIR$/demo/build" />
       <excludeFolder url="file://$MODULE_DIR$/demo/packages" />
       <excludeFolder url="file://$MODULE_DIR$/demo/web/packages" />
+      <excludeFolder url="file://$MODULE_DIR$/example/packages" />
       <excludeFolder url="file://$MODULE_DIR$/packages" />
       <excludeFolder url="file://$MODULE_DIR$/polymer-date-picker/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/polymer-date-picker/build" />
