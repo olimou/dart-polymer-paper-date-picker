@@ -11,7 +11,7 @@ import 'package:polymer_elements/iron_icon.dart';
 import 'package:polymer_elements/iron_flex_layout.dart';
 import 'package:polymer_elements/iron_flex_layout_classes.dart';
 import 'package:polymer_elements/iron_resizable_behavior.dart';
-import 'package:dart_polymer_date_picker/src/paper_date_picker_icons.dart';
+import 'paper_date_picker_icons.dart';
 import 'package:polymer_elements/neon_animatable.dart';
 import 'package:polymer_elements/neon_animated_pages.dart';
 import 'dart:html';
