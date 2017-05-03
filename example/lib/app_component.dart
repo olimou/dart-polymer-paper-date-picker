@@ -22,19 +22,17 @@ PaperDatePicker paperDatePicker;
 )
 class AppComponent implements OnInit {
   DateTime myDate = new DateTime(2015);
-  PaperCalendar paperCalendar;
   PaperDialog datePickerDialog;
 
   // Nothing here yet. All logic is in HelloDialog.
   @override
   ngOnInit() {
     datePickerDialog = querySelector("#date_picker_dialog");
-    paperCalendar = querySelector("#paper_calendar");
   }
 
   void newDate(var event) {
-    print(event);
+    PaperCalendar paperCalendar = querySelector("#paper_calendar");
 
-    window.console.log(paperCalendar);
+    print(paperCalendar.date);
   }
 }

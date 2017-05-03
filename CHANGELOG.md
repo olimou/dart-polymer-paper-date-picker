@@ -11,3 +11,8 @@
 ## 0.0.3
 
 - Change README
+
+## 0.0.4
+
+- Add AngularDart example
+- Add Polymer `set and get date` function

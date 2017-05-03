@@ -18,10 +18,14 @@ import 'dart:html';
 import 'package:web_components/web_components.dart';
 
 @CustomElementProxy('paper-calendar')
-class PaperCalendar extends HtmlElement {
+class PaperCalendar extends HtmlElement with CustomElementProxyMixin {
   PaperCalendar.created() : super.created();
 
   factory PaperCalendar() => new Element.tag('paper-calendar');
 
+  DateTime get date => jsElement[r'date'];
 
+  set date(DateTime date) {
+    jsElement[r'date'] = date;
+  }
 }
